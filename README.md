@@ -39,3 +39,5 @@ The following algorithms were used to builed an ensemble machine learning algori
 The ensemble model took the outputs from the model above and fit those outputs to the data using a random forest model
 
 ##Output & Expected Out-of-Sample Error
+
+The out-of-sample errors accuracy are shown below for each of the models, plus the out-of-sample error is shown for the ensemble model which is the final prediction for the out-of-sample error
