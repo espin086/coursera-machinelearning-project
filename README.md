@@ -41,4 +41,11 @@ The ensemble model took the outputs from the model above and fit those outputs t
 
 ##Output & Expected Out-of-Sample Error
 
-The out-of-sample errors accuracy are shown below for each of the models, plus the out-of-sample error is shown for the ensemble model which is the final prediction for the out-of-sample error
+The out-of-sample errors accuracy are shown below for each of the models, plus the out-of-sample error is shown for the ensemble model which is the final prediction for the out-of-sample error.
+
+###Ensemble Model - 83% 
+####Random Forest - 43% Accuracy
+####Linear Discriminant Analysis - 52%
+####K-nearest neighbors - 82%
+####Neural Networks - 41%
+
