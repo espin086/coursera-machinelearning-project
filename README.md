@@ -6,6 +6,6 @@ This document contains the following details about the the analysis contained in
 
 ##Data
 
-#Algorithms
+##Algorithms
 
-#Output
+##Output
