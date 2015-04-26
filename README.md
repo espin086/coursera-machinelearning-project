@@ -34,7 +34,7 @@ The following algorithms were used to builed an ensemble machine learning algori
 - Linear Discriminant Analysis
 - K-nearest neighbors
 - Neural Networks
-- 
+
 The ensemble model took the outputs from the model above and fit those outputs to the data using a random forest model
 
-##Output
+##Output & Expected Out-of-Sample Error
