@@ -31,12 +31,13 @@ The data were processed in the following manner:
 
 The following algorithms were used to builed an ensemble machine learning algorithm, meaning each of the algorithms predictions were then used as predictors themselves and cross-validated against the testing data to build the final model:
 
+Ensemble Model with the following models outputs used as inputs into the broader Ensemble Model
 - Random Forest
 - Linear Discriminant Analysis
 - K-nearest neighbors
 - Neural Networks
 
-The ensemble model took the outputs from the model above and fit those outputs to the data using a random forest model
+The ensemble model took the outputs from the model above and fit those outputs to the data using a random forest model. Each individual model was tuned-on the training data, with the ensemble model being trained on the testing data.  The final evaluation was of the Ensemble model on the validation data.
 
 ##Output & Expected Out-of-Sample Error
 
