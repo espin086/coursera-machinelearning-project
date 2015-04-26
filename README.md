@@ -1,5 +1,5 @@
 # Machine Learning Project
-##Predicting Quality the Quality of Weight Lifting Exercises
+##Predicting the Quality of Weight Lifting Exercises
 
 This document contains the following details about the the analysis contained in the ModelFitting R code in this repository.
 
