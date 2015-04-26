@@ -20,6 +20,21 @@ https://d396qusza40orc.cloudfront.net/predmachlearn/pml-testing.csv
 
 The data for this project come from this source: http://groupware.les.inf.puc-rio.br/har. If you use the document you create for this class for any purpose please cite them as they have been very generous in allowing their data to be used for this kind of assignment. 
 
+The data were processed in the following manner:
+- only the acceleration variables were used
+- removed any near zero variance variables
+- downloaded the training data set and partitioned it into training (70%), testing (20%), and validation (10%)
+- kept the test dataset in the link above as to run the model only once to get my estimate of the out-of-sample training error
+
 ##Algorithms
+
+The following algorithms were used to builed an ensemble machine learning algorithm, meaning each of the algorithms predictions were then used as predictors themselves and cross-validated against the testing data to build the final model:
+
+- Random Forest
+- Linear Discriminant Analysis
+- K-nearest neighbors
+- Neural Networks
+- 
+The ensemble model took the outputs from the model above and fit those outputs to the data using a random forest model
 
 ##Output
